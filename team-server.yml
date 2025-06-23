@@ -1,20 +1,6 @@
-# spring:
-#   application:
-#     name: TEAM
-
-# eureka:
-#   client:
-#     service-url:
-#       defaultZone: http://localhost:8010/eureka
-
-# words: Динамо
-
 spring:
   application:
     name: TEAM
-
-  config:
-    import: optional:configserver:http://localhost:8888
 
 eureka:
   client:
@@ -22,4 +8,3 @@ eureka:
       defaultZone: http://localhost:8010/eureka
 
 words: Динамо
-
