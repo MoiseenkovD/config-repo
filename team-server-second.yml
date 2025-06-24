@@ -1,5 +1,17 @@
+# spring:
+#   config:
+#     activate:
+#       on-profile: second
+# words: Шахтар
+
 spring:
   config:
     activate:
       on-profile: second
+  application:
+    name: team-second
+
+server:
+  port: 8082
+
 words: Шахтар
