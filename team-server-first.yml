@@ -1,5 +1,18 @@
+# spring:
+#   config:
+#     activate:
+#       on-profile: first
+# words: Динамо
+
 spring:
   config:
     activate:
       on-profile: first
+  application:
+    name: team-first
+
+server:
+  port: 8081
+
 words: Динамо
+
