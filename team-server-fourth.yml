@@ -1,5 +1,18 @@
+# spring:
+#   config:
+#     activate:
+#       on-profile: fourth
+# words: Зоря
+
 spring:
   config:
     activate:
       on-profile: fourth
+  application:
+    name: team-fourth
+
+server:
+  port: 8084
+
 words: Зоря
+
