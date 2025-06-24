@@ -1,8 +1,20 @@
+# spring:
+#   config:
+#     activate:
+#       on-profile: third
+#   application:
+#     name: team-third
+
+# words: Дніпро
+
 spring:
   config:
     activate:
       on-profile: third
   application:
     name: team-third
+
+server:
+  port: 8083
 
 words: Дніпро
