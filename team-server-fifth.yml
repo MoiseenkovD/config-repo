@@ -1,5 +1,17 @@
+# spring:
+#   config:
+#     activate:
+#       on-profile: fifth
+# words: Полісся
+
 spring:
   config:
     activate:
       on-profile: fifth
-words: Полісся
+  application:
+    name: team-fifth
+
+server:
+  port: 8085
+
+words: Ворскла
