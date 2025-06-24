@@ -2,4 +2,7 @@ spring:
   config:
     activate:
       on-profile: third
-words: Ск-Дніпро-1
+  application:
+    name: team-third
+
+words: Дніпро
